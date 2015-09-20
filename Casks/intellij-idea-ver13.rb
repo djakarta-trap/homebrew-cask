@@ -1,5 +1,5 @@
 cask :v1 => 'intellij-idea-ver13' do
-  version '13.1.6’
+  version '13.1.6'
   sha256 '2e4e2d71786cdcee2236731af25bd52129b2a18031b4899a3cc864ad632abce1'
 
   url "https://download.jetbrains.com/idea/ideaIU-#{version}.dmg"
@@ -10,8 +10,8 @@ cask :v1 => 'intellij-idea-ver13' do
   app 'IntelliJ IDEA 13.app'
 
   zap :delete => [
-                  '~/Library/Application Support/IntelliJIdea13’,
-                  '~/Library/Preferences/IntelliJIdea13’,
+                  '~/Library/Application Support/IntelliJIdea13',
+                  '~/Library/Preferences/IntelliJIdea13',
                   '~/Library/Preferences/com.jetbrains.intellij.plist',
                  ]
 
