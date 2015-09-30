@@ -1,4 +1,4 @@
-cask :v1 => 'intellij-idea-ver14.0.4' do
+cask :v1 => 'intellij-idea-ver14_0_4' do
   version '14.0.4'
   sha256 'b733aa89ffc48ee9b487bc6afb1f3efad79ae0de4e1ab0bb5b3fd840bc5cc52c'
 
